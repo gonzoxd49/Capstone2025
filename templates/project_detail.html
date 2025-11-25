@@ -8,7 +8,7 @@
         <div class="col-lg-9 col-xl-8">
 
             <!-- Main Project Card -->
-            <div class="card shadow-lg border-0 overflow-hidden">
+            <div class="card shadow-lg border-0 text-bg-light overflow-hidden">
                 
                 <!-- Project Image -->
                 <img src="{{ project.image }}" 
@@ -19,10 +19,10 @@
                 <div class="card-body p-5">
 
                     <!-- Title -->
-                    <h1 class="display-5 fw-bold text-dark mb-4">{{ project.title }}</h1>
+                    <h1 class="display-5 fw-bold mb-4">{{ project.title }}</h1>
 
                     <!-- Rich Text Description (WYSIWYG) -->
-                    <div class="project-description lead fs-4 text-dark" style="line-height: 1.8;">
+                    <div class="project-description lead fs-4" style="line-height: 1.8;">
                         {{ project.description | safe }}
                     </div>
 
