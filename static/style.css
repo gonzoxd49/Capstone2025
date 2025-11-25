@@ -31,7 +31,9 @@ body { padding-top: 56px; }
 }
 .profile-img {
     width: 175px;
-    height: 175px;
+    max-width: 100%;
+    aspect-ratio: 1 / 1;
+    height: auto;
     border-radius: 50%;
     object-fit: cover;
     object-position: top center;
